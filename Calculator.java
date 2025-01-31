@@ -1,20 +1,9 @@
-package Day9;
+package Abstract;
 
-public class Calculator {
-	int add(int a,int b) {
-		return a+b;
-	}
-	int sub(int a,int b) {
-		return a-b;
-	}
-	int mul(int a,int b) {
-		return a*b; 
-	}
-		
-	int div(int a,int b) {
-		return a/b;
-	}
-	int mod(int a,int b) {
-			return a%b;
-	}
+public interface Calculator {
+	void add(int a,int b);
+	void sub(int a,int b);
+	void mul(int a,int b);
+	void div(int a,int b);
+
 }
